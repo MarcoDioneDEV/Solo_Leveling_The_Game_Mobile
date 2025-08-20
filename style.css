@@ -249,10 +249,14 @@ background-color: #092857;
     text-align: center;
     padding: 5px 10px 5px 10px;
     box-shadow: 2px 2px 2px  #17e5f2;
-    
-    z-index: 2;  /*  Indica a posição do elemento nas camadas de sobreposição */
-    position: sticky;
+    z-index: 2;  /*  
+    Indica a posição do elemento nas camadas de sobreposição position: sticky;
     top: 0;
+    */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   }
 
 .grid-itemFlutuante{
@@ -1279,13 +1283,15 @@ border-radius: 10px;
   padding: 10px 20px;
   border: none;
   border-radius: 0px;
-  background-color: white;
+  background-color: #031833;
   cursor: pointer;
+  color: white;
 }
 
 .botaoArise2.ativo {
-  background-color: #031833;
-  color: #fff;
+  background-color: white;
+  color: #031833;
+  border: solid 3px #7A288A;
 }
 
 .conteudoArise2 {
