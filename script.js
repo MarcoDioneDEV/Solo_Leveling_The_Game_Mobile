@@ -9619,7 +9619,7 @@ document.getElementById("idNome26Magos").innerHTML =  "6 Magos Necromantes";
     PedraDeEssencia = PedraDeEssencia + 50;
       document.getElementById("idpedrainventario").innerHTML =  "⚠️ Pedras de Essência: " + PedraDeEssencia;
 
-    document.getElementById("idQuadroDeRetornoMagos").innerHTML = "✨ VITÓRIA ✨ Você derrotou os 6 Magos [Necessário aceitar a Classe Necromante]";
+    document.getElementById("idQuadroDeRetornoMagos").innerHTML = "✨ VITÓRIA ✨ Você derrotou os 6 Magos";
     document.getElementById("idChecDosMagos").innerHTML = "⚠️ 6 Magos das Sombras";
     document.getElementById("idChecDoIgris").innerHTML = "⚠️ Igris - O Vermelho-Sangue";
     document.getElementById("idAlertaNoMenuClasseTitulo").innerHTML = "⚠️ Classe e Títulos";
