@@ -139,21 +139,239 @@
   </fieldset><br>
     <!--Fim da tarefa diária-->
 
+<!--Início da Dugeon de Mineração-->
+      <div class="grid-item3" id="segundo-div">
+        <h1>Cristais de Mana</h1>
 
-     <!-- Início do título Status -->
-      <div class="grid-item5"><h1 style="text-align: center; font-size: 50px">STATUS</h1></div>
+        <div class="cards-container">
+          <div class="card-1 flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img id="ImagemFlipMudarDeCor" class="img1" src="https://t4.ftcdn.net/jpg/08/37/59/97/360_F_837599776_mlGxnGTuzsHYmJGlehz3d3lLiWr50My7.jpg" alt=""/>
+              </div>
+              <div class="flip-card-back">
+                <img id="Imagem2FlipMudarDeCor" class="img1" src="https://64.media.tumblr.com/839d7cafb3ee88849b1dac69fa3c425c/46d959c700c85f59-7c/s540x810/69cddceb5238db7529b674f61b425ea2487da5b4.gifv"/>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h2>Dungeon de mineração: Cristais de Mana</h2>
+
+       
+       
+        <br>
+        <br>
+
+        <details>
+          <summary class="sumario">EXPLORAR DANGEON</summary>
+          <br>
+
+          <h3>
+            Os Cristais de Mana, apesar de seu nome, contêm menos mana e poder.
+            Eles podem ser encontrados e colhidos sem a necessidade de derrotar
+            monstros. Os cristais podem ser vendidos na aba Inventário para conseguir ouro.
+          </h3>
+
+          <h2>⛏️ Mina de Escavação ⛏️</h2>
+
+          <h3 id="idcristal">Dica: Na aba "Atributos" adicione pontos no atributo Percepção para minerar mais Cristais</h3>
+          
+          <button id="BotaoTrocaDeCor" class="blob" onclick="funcaominerarcristal()"> MINERAR CRISTAIS DE MANA (10% DE FADIGA) </button>
+          <br> <br>
+          <button class="blob" onclick="funcaominerarcristalAteAfadigaSer100()"> MINERAR CRISTAIS DE MANA (100% DE FADIGA) </button>
+         
+           <h4 id="idminerarcristal"></h4>
+
+          <details>
+            <summary>Ajuda</summary>
+            <h4>
+              Melhore a sua "Percepção" para conseguir encontrar e minerar
+              Cristais de Mana de forma mais eficiente. A mineração é um
+              trabalho pesado e irá gerar "Fadiga".
+            </h4>
+
+            <h4 class="sumario">Exemplos:</h4>
+            <ul>
+              <li>10 pontos de Percepção irá gerar 1 Cristal e 10% de Fadiga</li>
+              <li>11 pontos de Percepção irá gerar 2 Cristais e 9% de Fadiga</li>
+              <li>12 pontos de Percepção irá gerar 3 Cristais e 8% de Fadiga</li>
+              <li>...</li>
+              <li>...</li>
+              <li>18 pontos de Percepção irá gerar 9 Cristais e 2% de Fadiga</li>
+              <li>19 pontos de Percepção irá gerar 10 Cristais e 1% de Fadiga</li>
+            </ul>
+
+             <h4>
+              Apartir de 19 pontos de atributos em Percepção, não irá mais ter alteração na geração de Cristais.
+            </h4>
+
+            <h4 class="sumario">Exemplos:</h4>
+            <ul>
+                <li>20 pontos de Percepção irá gerar 10 Cristais e 1% de Fadiga</li>
+                <li>21 pontos de Percepção irá gerar 10 Cristais e 1% de Fadiga</li>
+                <li>22 pontos de Percepção irá gerar 10 Cristais e 1% de Fadiga</li>
+            </ul>
+
+          </details>
+        </details>
+        <br>
+      </div>
+      <!-- Fim da Dugeon de Mineração -->
 
 
-      <!--Fim do título Status -->
+       <!-- INÍCIO DO TREINO DIÁRIO E MISSÃO DE PENALIDADE -->
+       <div class="grid-item3" id="terceiro-div">
+        <h1>Missão Diária</h1>
 
+        <div class="cards-container">
+          <div class="card-1 flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+<img id="Imagem3FlipMudarDeCor" class="img1" src="https://i0.wp.com/otakuorbit.com/wp-content/uploads/2024/04/Solo-12-1.png?ssl=1" alt=""
+                />
+              </div>
+              <div class="flip-card-back">
+ <img id="Imagem4FlipMudarDeCor" class="img1" src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2024/02/jin-woo-chased-by-monster-in-the-desert-in-solo-leveling-episode-3.jpg"/>
+              </div>
+            </div>
+          </div>
+        </div>
 
-     
+        <h2>Missão de Penalidade ou Treino Diário</h2>
 
+        <br><br>
+
+        <details>
+          <summary class="sumario">REALIZAR MISSÃO</summary>
+          <br>
+
+          <h3> Ao realizar a "Missão Diária" você pode optar por duas atividades.</h3>
+
+<!--Início do menu de Treino Diário-->
+<div class="abasTreino">
+  <div class="botoesTreino">
+    <button class="botaoTreino ativo" onclick="abrirAbaTreino(1)"> Ganho de Força </button>
+    <button class="botaoTreino" onclick="abrirAbaTreino(2)"> Sobrevivência </button>
+  </div>
+  <div class="conteudoTreino">
+    <div class="abaTreino ativo" id="abaTreino1">
       
+      <!--Início do Treino diário-->
+
+  <h3 class="sublinhado">Treino Diário: Ganho de Força</h3>
+
+   <img class="img1" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2024/02/man-from-solo-leveling-looking-into-the-sun-rise.jpg" />
+
+      <h4>
+        Realize 100% do seu treino ao clicar no botão "Realizar treinamento" e ganhe 1 Ponto de Atributo em Força como recompensa.
+        <br><br>
+        “Quanto mais fraco você é, mais rápido você é descartado, mas se você é forte, as pessoas procurarão essa força”
+      </h4>
+
+      <button class="blob" onclick="misaoDiaria()"> 🤸 Realizar treinamento 🏃</button>
+      <br>
+      <h4 id="idtreino"></h4>
+
+      <details>
+        <summary class="sumario">Ajuda</summary>
+
+        <h3>
+          Melhore seu atributo "Força" para realizar um treino mais
+          eficiente. Lembrando que os treinos irão gerar 1% de "Fadiga".
+        </h3>
+
+        <h4 class="sumario">Exemplos:</h4>
+        <ul>
+          <li>10 pontos de "Força" irá gerar 2% do Treino</li>
+           <li>11 pontos de "Força" irá gerar 3% do Treino</li>
+          <li>...</li>
+          <li>107 pontos de "Força" irá gerar 99% do Treino</li>
+           <li>108 pontos de "Força" irá gerar 100% do Treino</li>
+        </ul>
+        <br>
+      </details>
+    </div>
+        
+<!--Fim do Treino diário-->
+
+    
+    <div class="abaTreino" id="abaTreino2">
+      
+      <!--Início da luta do Centopeia-->
+ 
+  <h3 class="sublinhado">Missão de Penalidade: Sobrevivência</h3>
+
+ <img class="img1" src="https://preview.redd.it/querehsha-solo-leveling-vs-sage-centipede-one-punch-man-v0-9d6tu4e1juee1.png?width=640&crop=smart&auto=webp&s=6216071af51100d166860279015d7371c569ade4" />
+<br><br>
+ <h2>Centopeias gigantes</h2>
+          <h3>Rank: B ⭐⭐⭐⭐</h3>
+ <button class="inseto">Inseto</button>
+ <button class="AtaqueFisico">Ataque físico</button>
+
+  <h3>
+    Missão de Penalidade: Sobreviver a Centopeias gigantes do deserto com dentes envenenados, 
+    caso você vença receberá 20 Pontos de experiência, caso não derrote a Centopeia você ainda receberar 2 pontos de experiência.
+    </h3>
+    <h4>
+    <br>“Se a dor não me matar, ela apenas me tornará mais forte”</h4>
+
+<!--Início dos videos -->
+ <br><iframe width="320" height="200"  
+src="https://www.youtube.com/embed/umSfk3V1tXw?si=YFpIQnav01xgxdeY" title="YouTube video player"  frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  referrerpolicy="strict-origin-when-cross-origin"  allowfullscreen></iframe>
+  <br> <br>
+  <!--Fim dos videos -->
+
+  <fieldset class="temafieldset" id="sexto-div">
+    <h3 class="sublinhado">Status da Centopeia</h3>
+
+    <fieldset class="luta">
+ 
+      <h3 class="luta" id="idVidaCentopeias">❤️ Vida: 50%</h3>
+      <h3 class="luta" id="idFadigaCentopeias">🪫Fadiga : 50%</h3>
+      <h3 class="luta" id="idAgilidadeCentopeias">🦵 Agilidade: 50</h3>
+      <h3 class="luta" id="idForcaCentopeias">💪 Força: 50</h3>
+      <button class="botaoNovo" id="idPopulacaoCentopeias">🚶‍♂️População: 0/3</button>
+      <button class="botaoNovo" id="idexperienciaCentopeias">🏆 Experiência: 0</button>
+      
+      <br /><br />
+    </fieldset>
+
+    <h3 class="sublinhado">Quadro de notificações</h3>
+    <h3 class="luta" id="idQuadroDeRetornoCentopeias">
+      Você quer desafiar as Centopeias?
+    </h3>
+
+    <button class="blob" onclick="LutaContraCentopeiasBotao()"  id="idLutaContraCentopeiasBotao">Sim</button>
+
+    <button class="blob" onclick="AnalisarLutaContraCentopeiasBotao()"> Analisar Luta </button>
+  </fieldset>
+
+ <br><br>
+  <!--Fim da luta do Centopeia-->
+
+    </div>
+    <br>
+  <br>
+  </div>
+  
+</div> <br> 
+<!--Fim do menu de Treino Diário-->
+      </div>
+      <!-- FIM do Treino diário -->
+
+
+   
+
 
       <!-- Início da vida/fadiga/mana -->
        <!-- Início da vida -->
       <div class="grid-item30" id="quinto-div">
+
+          <!-- Início do título Status <div class="grid-item5"><h1 style="text-align: center; font-size: 50px">STATUS</h1></div> -->
+      <h1 style="text-align: center; font-size: 50px">STATUS</h1>
+      <!--Fim do título Status -->
 
         <div class="status-container">
           <div class="status-item" >
@@ -1953,27 +2171,6 @@ src="https://omniversootaku.com.br/wp-content/uploads/2025/02/Taca-da-Reencarnac
 </div>
 </fieldset>
 
-  <!-- METAS
-<h4>METAS </h4>
-<h4>Nível 1: 10 Cristais de Mana </h4>
-<h4>Nível 2: 70 CM - Treino Diário</h4>
-<h4>Nível 3: 400 CM - TD - 20 Poções de Recuperação</h4>
-<h4>Nível 4: 700 CM - TD - 35 PR - 5 Poções de Vida</h4>
-<h4>Nível 5: 1500 CM - TD - 70 PR - 10 PV</h4>
-<h4>Nível 6: 3500 CM - TD - 80 PR - 20 PV - 10 Pedras de Essência</h4>
-<h4>Nível 7: 5000 CM - TD - 150 PR - 50 PV - 11 PE - 20 Presas de Lycan</h4>
-<h4>Nível 8: 7000 CM - TD - 180 PR - 60 PV - 12 PE </h4>
-<h4>Nível 9: 10.000 CM - TD - 250 PR - 125 PV</h4>
-<h4>Nível 10: 20.000 CM - TD - 300 PR - 130 PV</h4>
-<h4>Nível 11: 25.000 CM - TD - 350 PR - 150 PV </h4>
-<h4>Nível 12: 30.000 CM - TD - 360 PR - 160 PV</h4>
-<br>
-<h4>Rank D na kasaka</h4>
-<h4>Rank C no Caçadores</h4>
-<h4>Rank B no Igris</h4>
-<h4>Rank A no Monarca demoníaco</h4>
-<h4>Rank S no Rei Formiga</h4>
- METAS-->
       </div>
       <!-- Fim do menu da direita -->
 
@@ -1991,228 +2188,7 @@ src="https://omniversootaku.com.br/wp-content/uploads/2025/02/Taca-da-Reencarnac
 
   
 
-      <!--Início da Dugeon de Mineração-->
-      <div class="grid-item3" id="segundo-div">
-        <h1>Cristais de Mana</h1>
-
-        <div class="cards-container">
-          <div class="card-1 flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img id="ImagemFlipMudarDeCor" class="img1" src="https://t4.ftcdn.net/jpg/08/37/59/97/360_F_837599776_mlGxnGTuzsHYmJGlehz3d3lLiWr50My7.jpg" alt=""/>
-              </div>
-              <div class="flip-card-back">
-                <img id="Imagem2FlipMudarDeCor" class="img1" src="https://64.media.tumblr.com/839d7cafb3ee88849b1dac69fa3c425c/46d959c700c85f59-7c/s540x810/69cddceb5238db7529b674f61b425ea2487da5b4.gifv"/>
-               
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <h2>Dungeon de mineração: Cristais de Mana</h2>
-
-       
-       
-        <br>
-        <br>
-
-        <details>
-          <summary class="sumario">EXPLORAR DANGEON</summary>
-          <br>
-
-          <h3>
-            Os Cristais de Mana, apesar de seu nome, contêm menos mana e podem.
-            Eles podem ser encontrados e colhidos sem a necessidade de derrotar
-            monstros. Os cristais podem ser vendidos na aba Inventário para conseguir ouro.
-          </h3>
-
-          <h2>⛏️ Mina de Escavação ⛏️</h2>
-
-          <h3 id="idcristal">Dica: Na aba "Atributos" adicione pontos no atributo Percepção para minerar mais Cristais</h3>
-          
-          <button id="BotaoTrocaDeCor" class="blob" onclick="funcaominerarcristal()"> MINERAR CRISTAIS DE MANA (10% DE FADIGA) </button>
-          <br> <br>
-          <button class="blob" onclick="funcaominerarcristalAteAfadigaSer100()"> MINERAR CRISTAIS DE MANA (100% DE FADIGA) </button>
-         
-           <h4 id="idminerarcristal"></h4>
-
-          <details>
-            <summary>Ajuda</summary>
-            <h4>
-              Melhore a sua "Percepção" para conseguir encontrar e minerar
-              Cristais de Mana de forma mais eficiente. A mineração é um
-              trabalho pesado e irá gerar "Fadiga".
-            </h4>
-
-            <h4 class="sumario">Exemplos:</h4>
-            <ul>
-              <li>10 pontos de Percepção irá gerar 1 Cristal e 10% de Fadiga</li>
-              <li>11 pontos de Percepção irá gerar 2 Cristais e 9% de Fadiga</li>
-              <li>12 pontos de Percepção irá gerar 3 Cristais e 8% de Fadiga</li>
-              <li>...</li>
-              <li>...</li>
-              <li>18 pontos de Percepção irá gerar 9 Cristais e 2% de Fadiga</li>
-              <li>19 pontos de Percepção irá gerar 10 Cristais e 1% de Fadiga</li>
-            </ul>
-
-             <h4>
-              Apartir de 19 pontos de atributos em Percepção, não irá mais ter alteração na geração de Cristais.
-            </h4>
-
-            <h4 class="sumario">Exemplos:</h4>
-            <ul>
-                <li>20 pontos de Percepção irá gerar 10 Cristais e 1% de Fadiga</li>
-                <li>21 pontos de Percepção irá gerar 10 Cristais e 1% de Fadiga</li>
-                <li>22 pontos de Percepção irá gerar 10 Cristais e 1% de Fadiga</li>
-            </ul>
-
-          </details>
-        </details>
-        <br>
-      </div>
-      <!-- Fim da Dugeon de Mineração -->
-
-
-       <!-- INÍCIO DO TREINO DIÁRIO E MISSÃO DE PENALIDADE -->
-       <div class="grid-item3" id="terceiro-div">
-        <h1>Missão Diária</h1>
-
-        <div class="cards-container">
-          <div class="card-1 flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-<img id="Imagem3FlipMudarDeCor" class="img1" src="https://i0.wp.com/otakuorbit.com/wp-content/uploads/2024/04/Solo-12-1.png?ssl=1" alt=""
-                />
-              </div>
-              <div class="flip-card-back">
- <img id="Imagem4FlipMudarDeCor" class="img1" src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2024/02/jin-woo-chased-by-monster-in-the-desert-in-solo-leveling-episode-3.jpg"/>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <h2>Missão de Penalidade ou Treino Diário</h2>
-
-        <br><br>
-
-        <details>
-          <summary class="sumario">REALIZAR MISSÃO</summary>
-          <br>
-
-          <h3> Ao realizar a "Missão Diária" você pode optar por duas atividades.</h3>
-
-<!--Início do menu de Treino Diário-->
-<div class="abasTreino">
-  <div class="botoesTreino">
-    <button class="botaoTreino ativo" onclick="abrirAbaTreino(1)"> Ganho de Força </button>
-    <button class="botaoTreino" onclick="abrirAbaTreino(2)"> Sobrevivência </button>
-  </div>
-  <div class="conteudoTreino">
-    <div class="abaTreino ativo" id="abaTreino1">
       
-      <!--Início do Treino diário-->
-
-  <h3 class="sublinhado">Treino Diário: Ganho de Força</h3>
-
-   <img class="img1" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2024/02/man-from-solo-leveling-looking-into-the-sun-rise.jpg" />
-
-      <h4>
-        Realize 100% do seu treino ao clicar no botão "Realizar treinamento" e ganhe 1 Ponto de Atributo em Força como recompensa.
-        <br><br>
-        “Quanto mais fraco você é, mais rápido você é descartado, mas se você é forte, as pessoas procurarão essa força”
-      </h4>
-
-      <button class="blob" onclick="misaoDiaria()"> 🤸 Realizar treinamento 🏃</button>
-      <br>
-      <h4 id="idtreino"></h4>
-
-      <details>
-        <summary class="sumario">Ajuda</summary>
-
-        <h3>
-          Melhore seu atributo "Força" para realizar um treino mais
-          eficiente. Lembrando que os treinos irão gerar 1% de "Fadiga".
-        </h3>
-
-        <h4 class="sumario">Exemplos:</h4>
-        <ul>
-          <li>10 pontos de "Força" irá gerar 2% do Treino</li>
-           <li>11 pontos de "Força" irá gerar 3% do Treino</li>
-          <li>...</li>
-          <li>107 pontos de "Força" irá gerar 99% do Treino</li>
-           <li>108 pontos de "Força" irá gerar 100% do Treino</li>
-        </ul>
-        <br>
-      </details>
-    </div>
-        
-<!--Fim do Treino diário-->
-
-    
-    <div class="abaTreino" id="abaTreino2">
-      
-      <!--Início da luta do Centopeia-->
- 
-  <h3 class="sublinhado">Missão de Penalidade: Sobrevivência</h3>
-
- <img class="img1" src="https://preview.redd.it/querehsha-solo-leveling-vs-sage-centipede-one-punch-man-v0-9d6tu4e1juee1.png?width=640&crop=smart&auto=webp&s=6216071af51100d166860279015d7371c569ade4" />
-<br><br>
- <h2>Centopeias gigantes</h2>
-          <h3>Rank: B ⭐⭐⭐⭐</h3>
- <button class="inseto">Inseto</button>
- <button class="AtaqueFisico">Ataque físico</button>
-
-  <h3>
-    Missão de Penalidade: Sobreviver a Centopeias gigantes do deserto com dentes envenenados, 
-    caso você vença receberá 20 Pontos de experiência, caso não derrote a Centopeia você ainda receberar 2 pontos de experiência.
-    </h3>
-    <h4>
-    <br>“Se a dor não me matar, ela apenas me tornará mais forte”</h4>
-
-<!--Início dos videos -->
- <br><iframe width="320" height="200"  
-src="https://www.youtube.com/embed/umSfk3V1tXw?si=YFpIQnav01xgxdeY" title="YouTube video player"  frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  referrerpolicy="strict-origin-when-cross-origin"  allowfullscreen></iframe>
-  <br> <br>
-  <!--Fim dos videos -->
-
-  <fieldset class="temafieldset" id="sexto-div">
-    <h3 class="sublinhado">Status da Centopeia</h3>
-
-    <fieldset class="luta">
- 
-      <h3 class="luta" id="idVidaCentopeias">❤️ Vida: 50%</h3>
-      <h3 class="luta" id="idFadigaCentopeias">🪫Fadiga : 50%</h3>
-      <h3 class="luta" id="idAgilidadeCentopeias">🦵 Agilidade: 50</h3>
-      <h3 class="luta" id="idForcaCentopeias">💪 Força: 50</h3>
-      <button class="botaoNovo" id="idPopulacaoCentopeias">🚶‍♂️População: 0/3</button>
-      <button class="botaoNovo" id="idexperienciaCentopeias">🏆 Experiência: 0</button>
-      
-      <br /><br />
-    </fieldset>
-
-    <h3 class="sublinhado">Quadro de notificações</h3>
-    <h3 class="luta" id="idQuadroDeRetornoCentopeias">
-      Você quer desafiar as Centopeias?
-    </h3>
-
-    <button class="blob" onclick="LutaContraCentopeiasBotao()"  id="idLutaContraCentopeiasBotao">Sim</button>
-
-    <button class="blob" onclick="AnalisarLutaContraCentopeiasBotao()"> Analisar Luta </button>
-  </fieldset>
-
- <br><br>
-  <!--Fim da luta do Centopeia-->
-
-    </div>
-    <br>
-  <br>
-  </div>
-  
-</div> <br> 
-<!--Fim do menu de Treino Diário-->
-      </div>
-      <!-- FIM do Treino diário -->
-
  
  <!-- INÍCIO MENU PARA AS DUNGEOS -->
  <div class="grid-item2" >   
