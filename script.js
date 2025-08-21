@@ -571,8 +571,8 @@ inteligenciaDasSombras = 0;
 
     atributo = 10000;
     SomaDosCristais =  31000;
-    SomaDaPocaoDeRecuperacao = 400;
-    SomaDaPocaoDeVida = 300;
+    SomaDaPocaoDeRecuperacao = 500;
+    SomaDaPocaoDeVida = 500;
 
     vida = 100;
     fadiga = 0;
@@ -591,7 +591,7 @@ Magos = 2;
 Kang = 1;
 Ursos = 6;
 KinChul = 1;
-Baruka = 2;
+Baruka = 0;
 Igris = 2;
 Metus = 1;
 Vulcano = 1;
@@ -22923,5 +22923,6 @@ function atualizarGrafico(dados) {
   radarChart.update();
 }
 /*FIM GRÁFICO */
+
 
 
