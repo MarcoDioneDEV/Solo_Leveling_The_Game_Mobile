@@ -570,9 +570,9 @@ inteligenciaDasSombras = 0;
     
 
     atributo = 10000;
-    SomaDosCristais =  30000;
-    SomaDaPocaoDeRecuperacao = 360;
-    SomaDaPocaoDeVida = 160;
+    SomaDosCristais =  31000;
+    SomaDaPocaoDeRecuperacao = 400;
+    SomaDaPocaoDeVida = 300;
 
     vida = 100;
     fadiga = 0;
@@ -22923,4 +22923,5 @@ function atualizarGrafico(dados) {
   radarChart.update();
 }
 /*FIM GRÁFICO */
+
 
