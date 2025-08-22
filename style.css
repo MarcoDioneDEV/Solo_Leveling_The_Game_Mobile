@@ -883,15 +883,15 @@ border-radius: 10px;
 /* Início efeito de moedas na compra */
 .moeda {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 100px;
+  height: 100px;
   background-color: #ffd700;
   border-radius: 50%;
   opacity: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 12px;
+  font-size: 60px;
   font-weight: bold;
 }
 
@@ -948,15 +948,15 @@ border-radius: 10px;
 /* Início efeito de moedas na compra 2*/
 .moeda2 {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 100px;
+  height: 100px;
   background-color: #ffd700;
   border-radius: 50%;
   opacity: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 12px;
+  font-size: 60px;
   font-weight: bold;
 }
 
@@ -1012,15 +1012,15 @@ border-radius: 10px;
 /* Início efeito de moedas na compra 3*/
 .moeda3 {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 100px;
+  height: 100px;
   background-color: #ffd700;
   border-radius: 50%;
   opacity: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 12px;
+  font-size: 60px;
   font-weight: bold;
 }
 
@@ -1077,8 +1077,8 @@ border-radius: 10px;
 /* INÍCIO DA MANA*/
 .bolha {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 100px;
+  height: 100px;
   background-color: rgba(122, 40, 138, 0.5);
   border-radius: 50%;
   opacity: 0;
@@ -1150,7 +1150,7 @@ border-radius: 10px;
 /* INÍCIO DO EFEITO DA VIDA*/
 .seta-verde {
   position: absolute;
-  font-size: 100px;
+  font-size: 300px;
   font-weight: bold;
   color: #00FF00;
   opacity: 0;
@@ -1182,7 +1182,7 @@ border-radius: 10px;
 
 .seta-vermelha {
   position: absolute;
-  font-size: 100px;
+  font-size: 300px;
   color: #FF0000;
   opacity: 0;
 }
